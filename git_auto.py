@@ -38,8 +38,8 @@ CREATE_NEW_BRANCH = True  # Set to False to use existing branch
 NEW_BRANCH_NAME = "new-attempt"  # Used when abandoning and starting over
 
 # Commit settings
-COMMIT_MESSAGE = "Auto-commit: " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-AUTO_STAGE_ALL = False  # We'll use custom staging logic
+COMMIT_MESSAGE = "Added trade analysis improvements and new analysis scripts" + datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+AUTO_STAGE_ALL = True  # We'll use custom staging logic
 FILES_TO_STAGE = ["*.py", "README.md"]  # Only used for specific patterns
 INCLUDE_ROOT_FILES = True  # Include files in the root directory
 EXCLUDE_SUBFOLDERS = True  # Exclude all subfolders by default

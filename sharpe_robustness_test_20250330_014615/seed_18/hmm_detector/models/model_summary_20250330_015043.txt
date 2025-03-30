@@ -1,0 +1,27 @@
+HMM REGIME MODEL SUMMARY
+=======================
+
+Number of states: 3
+Training date: 2020-02-03
+Feature names: ADX, MA_slope, atr_ratio, RSI, price_to_ma, relative_volatility, bb_width, rsi_change, returns_5d, volatility_regime
+
+STATE MAPPING
+------------
+State 0 -> MEAN_REVERTING
+State 1 -> TREND_FOLLOWING
+State 2 -> NEUTRAL
+
+STATE FREQUENCIES
+----------------
+state_0 (mean_reverting): 0.89%
+state_1 (trend_following): 43.64%
+state_2 (neutral): 55.48%
+
+MODEL PARAMETERS
+---------------
+Log likelihood: 9432.44528505612
+
+Transition matrix:
+  0.829 0.011 0.160
+  0.006 0.950 0.044
+  0.045 0.105 0.850

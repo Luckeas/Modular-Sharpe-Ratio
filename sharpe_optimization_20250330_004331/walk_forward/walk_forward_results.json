@@ -1,0 +1,226 @@
+{
+    "periods": [
+        {
+            "period": 1,
+            "in_sample": {
+                "start": "2020-01-01T00:00:00",
+                "end": "2020-03-03T00:00:00"
+            },
+            "out_sample": {
+                "start": "2020-03-04T00:00:00",
+                "end": "2020-03-31T00:00:00"
+            }
+        },
+        {
+            "period": 2,
+            "in_sample": {
+                "start": "2020-04-01T00:00:00",
+                "end": "2020-06-02T00:00:00"
+            },
+            "out_sample": {
+                "start": "2020-06-03T00:00:00",
+                "end": "2020-06-30T00:00:00"
+            }
+        },
+        {
+            "period": 3,
+            "in_sample": {
+                "start": "2020-07-01T00:00:00",
+                "end": "2020-09-01T00:00:00"
+            },
+            "out_sample": {
+                "start": "2020-09-02T00:00:00",
+                "end": "2020-09-29T00:00:00"
+            }
+        },
+        {
+            "period": 4,
+            "in_sample": {
+                "start": "2020-09-30T00:00:00",
+                "end": "2020-12-01T00:00:00"
+            },
+            "out_sample": {
+                "start": "2020-12-02T00:00:00",
+                "end": "2020-12-31T00:00:00"
+            }
+        }
+    ],
+    "best_period_params": [
+        {
+            "period": 1,
+            "params": {
+                "risk.risk_per_trade": 0.007,
+                "risk.atr_stop_multiplier": 1.5,
+                "risk.trailing_stop_atr_multiplier": 2.3,
+                "risk.dynamic_target_atr_multiplier": 1.9000000000000001,
+                "risk.max_bars_held": 14,
+                "hmm_detector.lookback_days": 40,
+                "hmm_detector.retrain_frequency": 15,
+                "hmm_detector.min_samples": 225,
+                "market_type.trend_following.min_regime_score": 80.0,
+                "market_type.mean_reverting.min_regime_score": 45.0,
+                "market_type.neutral.min_regime_score": 55.0,
+                "position_sizing.max_size_adjustment": 1.8,
+                "position_sizing.min_size_adjustment": 0.5
+            },
+            "in_sample_metrics": {
+                "sharpe_ratio": 0.4503765550675083,
+                "profit_loss": 2724.4417857142907,
+                "win_rate": 77.27272727272727,
+                "max_drawdown": 2.839275131808271,
+                "trade_count": 22
+            }
+        },
+        {
+            "period": 2,
+            "params": {
+                "risk.risk_per_trade": 0.012,
+                "risk.atr_stop_multiplier": 1.7,
+                "risk.trailing_stop_atr_multiplier": 2.1,
+                "risk.dynamic_target_atr_multiplier": 1.9000000000000001,
+                "risk.max_bars_held": 14,
+                "hmm_detector.lookback_days": 40,
+                "hmm_detector.retrain_frequency": 5,
+                "hmm_detector.min_samples": 175,
+                "market_type.trend_following.min_regime_score": 65.0,
+                "market_type.mean_reverting.min_regime_score": 42.5,
+                "market_type.neutral.min_regime_score": 60.0,
+                "position_sizing.max_size_adjustment": 1.2,
+                "position_sizing.min_size_adjustment": 0.6
+            },
+            "in_sample_metrics": {
+                "sharpe_ratio": 0.46871565854066627,
+                "profit_loss": 6269.875714285714,
+                "win_rate": 63.888888888888886,
+                "max_drawdown": 3.922524481338372,
+                "trade_count": 36
+            }
+        },
+        {
+            "period": 3,
+            "params": {
+                "risk.risk_per_trade": 0.007,
+                "risk.atr_stop_multiplier": 1.5,
+                "risk.trailing_stop_atr_multiplier": 2.5,
+                "risk.dynamic_target_atr_multiplier": 1.1,
+                "risk.max_bars_held": 14,
+                "hmm_detector.lookback_days": 25,
+                "hmm_detector.retrain_frequency": 7,
+                "hmm_detector.min_samples": 300,
+                "market_type.trend_following.min_regime_score": 72.5,
+                "market_type.mean_reverting.min_regime_score": 42.5,
+                "market_type.neutral.min_regime_score": 50.0,
+                "position_sizing.max_size_adjustment": 2.0,
+                "position_sizing.min_size_adjustment": 0.9
+            },
+            "in_sample_metrics": {
+                "sharpe_ratio": 0.5362763376694912,
+                "profit_loss": 3722.713928571364,
+                "win_rate": 93.75,
+                "max_drawdown": 1.2787640968104192,
+                "trade_count": 16
+            }
+        },
+        {
+            "period": 4,
+            "params": {
+                "risk.risk_per_trade": 0.009000000000000001,
+                "risk.atr_stop_multiplier": 2.1,
+                "risk.trailing_stop_atr_multiplier": 1.5,
+                "risk.dynamic_target_atr_multiplier": 1.4000000000000001,
+                "risk.max_bars_held": 8,
+                "hmm_detector.lookback_days": 25,
+                "hmm_detector.retrain_frequency": 7,
+                "hmm_detector.min_samples": 250,
+                "market_type.trend_following.min_regime_score": 77.5,
+                "market_type.mean_reverting.min_regime_score": 47.5,
+                "market_type.neutral.min_regime_score": 52.5,
+                "position_sizing.max_size_adjustment": 1.2,
+                "position_sizing.min_size_adjustment": 0.7
+            },
+            "in_sample_metrics": {
+                "sharpe_ratio": 0.6546229193854015,
+                "profit_loss": 4628.888214285733,
+                "win_rate": 80.95238095238095,
+                "max_drawdown": 1.7944427358963535,
+                "trade_count": 21
+            }
+        }
+    ],
+    "out_of_sample_results": [
+        {
+            "start_date": "2020-03-04",
+            "end_date": "2020-03-31",
+            "sharpe_ratio": 0.805368257217899,
+            "profit_loss": 986.6392857142928,
+            "win_rate": 100.0,
+            "max_drawdown": 0.670029054445072,
+            "trade_count": 3,
+            "return_pct": 2.466598214285732,
+            "period": 1
+        },
+        {
+            "start_date": "2020-06-03",
+            "end_date": "2020-06-30",
+            "sharpe_ratio": -0.009714471322833849,
+            "profit_loss": -40.6689285714383,
+            "win_rate": 50.0,
+            "max_drawdown": 2.8446616470067227,
+            "trade_count": 6,
+            "return_pct": -0.10167232142859574,
+            "period": 2
+        },
+        {
+            "start_date": "2020-09-02",
+            "end_date": "2020-09-29",
+            "sharpe_ratio": -0.5778230450734229,
+            "profit_loss": -262.0550000000003,
+            "win_rate": 0.0,
+            "max_drawdown": 0.6551375000000007,
+            "trade_count": 1,
+            "return_pct": -0.6551375000000007,
+            "period": 3
+        },
+        {
+            "start_date": "2020-12-02",
+            "end_date": "2020-12-31",
+            "sharpe_ratio": -0.3288363844674395,
+            "profit_loss": -573.3735714285503,
+            "win_rate": 0.0,
+            "max_drawdown": 1.4334339285713757,
+            "trade_count": 2,
+            "return_pct": -1.4334339285713757,
+            "period": 4
+        }
+    ],
+    "median_params": {
+        "risk.risk_per_trade": 0.008,
+        "risk.atr_stop_multiplier": 1.6,
+        "risk.trailing_stop_atr_multiplier": 2.2,
+        "risk.dynamic_target_atr_multiplier": 1.6500000000000001,
+        "risk.max_bars_held": 14,
+        "hmm_detector.lookback_days": 32,
+        "hmm_detector.retrain_frequency": 7,
+        "hmm_detector.min_samples": 237,
+        "market_type.trend_following.min_regime_score": 75.0,
+        "market_type.mean_reverting.min_regime_score": 43.75,
+        "market_type.neutral.min_regime_score": 53.75,
+        "position_sizing.max_size_adjustment": 1.5,
+        "position_sizing.min_size_adjustment": 0.6499999999999999
+    },
+    "best_sharpe_params": {
+        "risk.risk_per_trade": 0.007,
+        "risk.atr_stop_multiplier": 1.5,
+        "risk.trailing_stop_atr_multiplier": 2.3,
+        "risk.dynamic_target_atr_multiplier": 1.9000000000000001,
+        "risk.max_bars_held": 14,
+        "hmm_detector.lookback_days": 40,
+        "hmm_detector.retrain_frequency": 15,
+        "hmm_detector.min_samples": 225,
+        "market_type.trend_following.min_regime_score": 80.0,
+        "market_type.mean_reverting.min_regime_score": 45.0,
+        "market_type.neutral.min_regime_score": 55.0,
+        "position_sizing.max_size_adjustment": 1.8,
+        "position_sizing.min_size_adjustment": 0.5
+    }
+}

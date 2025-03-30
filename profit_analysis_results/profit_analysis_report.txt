@@ -1,0 +1,157 @@
+TOP PERFORMER ANALYSIS SUMMARY REPORT
+===================================
+
+OVERALL STATISTICS
+-----------------
+Win Rate: 65.62%
+Average Win: $332.71
+Average Loss: $-410.95
+Risk-Reward Ratio: 0.81
+
+Average Holding Time: 6.10 hours
+Winning Trade Hold Time: 6.52 hours
+Losing Trade Hold Time: 5.31 hours
+
+Average Position Size: 9.62 contracts
+Winning Position Size: 9.86 contracts
+Losing Position Size: 9.16 contracts
+
+MARKET TYPE ANALYSIS
+-------------------
+MEAN_REVERTING:
+  Count: 986 trades (55.49% of total)
+  Win Rate: 66.23%
+  Avg Profit: $46.16
+  Avg Win: $280.52
+  Avg Loss: $-413.42
+
+NEUTRAL:
+  Count: 331 trades (18.63% of total)
+  Win Rate: 60.73%
+  Avg Profit: $16.19
+  Avg Win: $258.83
+  Avg Loss: $-358.96
+
+TREND_FOLLOWING:
+  Count: 460 trades (25.89% of total)
+  Win Rate: 67.83%
+  Avg Profit: $186.90
+  Avg Win: $489.52
+  Avg Loss: $-451.07
+
+EXIT REASON ANALYSIS
+-------------------
+Profit Target:
+  Count: 1086 trades (61.11% of total)
+  Win Rate: 100.00%
+  Avg Profit: $346.80
+
+Time Exit:
+  Count: 183 trades (10.30% of total)
+  Win Rate: 43.72%
+  Avg Profit: $-35.95
+
+Stop Loss:
+  Count: 508 trades (28.59% of total)
+  Win Rate: 0.00%
+  Avg Profit: $-459.05
+
+REGIME SCORE ANALYSIS
+--------------------
+Regime 80-100:
+  Count: 1207 trades (67.92% of total)
+  Win Rate: 67.19%
+  Avg Profit: $99.14
+
+Regime 60-80:
+  Count: 549 trades (30.89% of total)
+  Win Rate: 62.84%
+  Avg Profit: $32.86
+
+Regime 40-60:
+  Count: 21 trades (1.18% of total)
+  Win Rate: 47.62%
+  Avg Profit: $-40.73
+
+BEST PROFIT STREAKS
+-----------------
+Seed 14:
+  Period: 2020-08-11 to 2020-08-27
+  Duration: 16.1 days
+  Number of Trades: 13
+  Total Profit: $4959.73
+  Average Profit Per Trade: $381.52
+  Average Regime Score: 90.79
+  Market Types: {'mean_reverting': 8, 'trend_following': 5}
+  Exit Reasons: {'profit_target': 13}
+
+Seed 28:
+  Period: 2020-08-11 to 2020-09-02
+  Duration: 22.0 days
+  Number of Trades: 13
+  Total Profit: $4838.57
+  Average Profit Per Trade: $372.20
+  Average Regime Score: 86.53
+  Market Types: {'mean_reverting': 8, 'trend_following': 5}
+  Exit Reasons: {'profit_target': 12, 'time_exit': 1}
+
+Seed 31:
+  Period: 2020-08-11 to 2020-08-27
+  Duration: 16.1 days
+  Number of Trades: 12
+  Total Profit: $4572.62
+  Average Profit Per Trade: $381.05
+  Average Regime Score: 99.90
+  Market Types: {'mean_reverting': 8, 'trend_following': 4}
+  Exit Reasons: {'profit_target': 11, 'time_exit': 1}
+
+Seed 48:
+  Period: 2020-08-11 to 2020-08-27
+  Duration: 16.1 days
+  Number of Trades: 12
+  Total Profit: $4372.01
+  Average Profit Per Trade: $364.33
+  Average Regime Score: 86.67
+  Market Types: {'mean_reverting': 8, 'trend_following': 4}
+  Exit Reasons: {'profit_target': 11, 'time_exit': 1}
+
+Seed 28:
+  Period: 2020-11-17 to 2020-12-16
+  Duration: 28.8 days
+  Number of Trades: 10
+  Total Profit: $4008.61
+  Average Profit Per Trade: $400.86
+  Average Regime Score: 95.89
+  Market Types: {'mean_reverting': 6, 'trend_following': 3, 'neutral': 1}
+  Exit Reasons: {'profit_target': 10}
+
+COMPARISON WITH AVERAGE RUNS
+---------------------------
+Win Rate: 65.62% vs 62.46% (median runs)
+Avg Profit: $77.01 vs $50.24 (median runs)
+Avg Position Size: 9.62 vs 9.12 (median runs)
+
+Key differences:
+  Win Rate: +3.15% in top runs
+  Avg Profit: +$26.77 in top runs
+SUCCESS FACTORS
+--------------
+Based on the analysis, the following success factors were identified:
+- High win rate in mean_reverting market type (66.23%)
+- High win rate in neutral market type (60.73%)
+- High win rate in trend_following market type (67.83%)
+- High win rate in regime 80-100 (67.19%)
+- High win rate in regime 60-80 (62.84%)
+- High percentage of profit_target exits (61.11%)
+
+Recommended strategy enhancements:
+- For mean_reverting markets: Increase position sizes when conditions are favorable
+- For neutral markets: Increase position sizes when conditions are favorable
+- For trend_following markets: Increase position sizes when conditions are favorable
+- Profit targets: Consider slightly more aggressive targets
+- Stop losses: Consider widening stops to reduce false exits
+- Focus on high regime scores: 80-100, 60-80 produced the best results
+- Consider more aggressive position sizing in optimal conditions
+
+
+Analysis generated on: 2025-03-30 09:45:49

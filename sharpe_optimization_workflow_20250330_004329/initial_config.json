@@ -1,0 +1,249 @@
+{
+    "global": {
+        "random_seed": 42,
+        "use_fixed_seed": true
+    },
+    "data": {
+        "file_path": "../Candlestick_Data/MES_data/U19_H25.csv",
+        "start_date": "2020-01-01",
+        "end_date": "2020-12-31"
+    },
+    "account": {
+        "initial_capital": 40000,
+        "transaction_cost": 0.37,
+        "initial_margin": 1522
+    },
+    "risk": {
+        "risk_per_trade": 0.01,
+        "atr_stop_multiplier": 2.0,
+        "contract_multiplier": 5,
+        "max_bars_held": 16,
+        "enable_trailing_stop": true,
+        "trailing_stop_atr_multiplier": 1.5,
+        "dynamic_target_enable": true,
+        "dynamic_target_atr_multiplier": 1.0,
+        "enable_multi_target_exits": true,
+        "first_target_multiplier": 1.0,
+        "second_target_multiplier": 2.0,
+        "trailing_tightening_factor": 0.7,
+        "dynamic_stop_enabled": true
+    },
+    "trading_hours": {
+        "morning_start": "09:30:00",
+        "morning_end": "11:00:00",
+        "afternoon_start": "15:00:00",
+        "afternoon_end": "16:00:00"
+    },
+    "strategy": {
+        "bb_window": 20,
+        "rsi_window": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "volume_multiplier": 1.5
+    },
+    "regime": {
+        "adx_window": 14,
+        "adx_threshold": 40,
+        "ma_window": 50,
+        "ma_slope_window": 10,
+        "ma_slope_threshold": 0.25,
+        "volatility_window": 20,
+        "volatility_threshold": 1.8,
+        "use_weighted_regime": true,
+        "min_regime_score": 55,
+        "adx_weight": 0.4,
+        "slope_weight": 0.6
+    },
+    "position_sizing": {
+        "adjust_by_regime": true,
+        "max_size_adjustment": 1.5,
+        "min_size_adjustment": 0.8
+    },
+    "market_type": {
+        "enable": true,
+        "window": 10,
+        "update_frequency": 5,
+        "trend_strength_threshold": 22,
+        "volatility_ratio_threshold": 1.0,
+        "momentum_threshold": 60,
+        "trend_following": {
+            "adx_weight": 0.4,
+            "slope_weight": 0.6,
+            "min_regime_score": 70,
+            "sweet_spot_min": 70,
+            "sweet_spot_max": 90,
+            "max_bars_held": 24,
+            "trailing_stop_multiplier": 1.0
+        },
+        "mean_reverting": {
+            "adx_weight": 0.4,
+            "slope_weight": 0.6,
+            "min_regime_score": 40,
+            "sweet_spot_min": 45,
+            "sweet_spot_max": 65,
+            "max_bars_held": 6,
+            "trailing_stop_multiplier": 2.0
+        },
+        "neutral": {
+            "adx_weight": 0.5,
+            "slope_weight": 0.5,
+            "min_regime_score": 50,
+            "sweet_spot_min": 55,
+            "sweet_spot_max": 75,
+            "max_bars_held": 12,
+            "trailing_stop_multiplier": 1.5
+        }
+    },
+    "visualization": {
+        "generate_png_charts": false
+    },
+    "seasons": {
+        "enable": true,
+        "definitions": {
+            "Q1": {
+                "start_reference": [
+                    1,
+                    15
+                ],
+                "end_reference": [
+                    3,
+                    15
+                ],
+                "start_day": 0,
+                "end_day": 4
+            },
+            "Q2": {
+                "start_reference": [
+                    4,
+                    15
+                ],
+                "end_reference": [
+                    6,
+                    15
+                ],
+                "start_day": 0,
+                "end_day": 4
+            },
+            "Q3": {
+                "start_reference": [
+                    7,
+                    15
+                ],
+                "end_reference": [
+                    9,
+                    15
+                ],
+                "start_day": 0,
+                "end_day": 4
+            },
+            "Q4": {
+                "start_reference": [
+                    10,
+                    15
+                ],
+                "end_reference": [
+                    12,
+                    15
+                ],
+                "start_day": 0,
+                "end_day": 4
+            }
+        },
+        "track_out_of_season": false
+    },
+    "avoid_dates": [
+        "2024-03-29",
+        "2024-05-27",
+        "2024-12-25",
+        "2025-01-01"
+    ],
+    "market_type_parameters": {
+        "trend_following": {
+            "entry_volume_threshold": 1.2,
+            "rsi_long_min": 50,
+            "rsi_long_max": 75,
+            "rsi_short_min": 25,
+            "rsi_short_max": 50,
+            "ma_slope_threshold": 0.1,
+            "bb_penetration_min": 0.0,
+            "atr_stop_multiplier": 2.5,
+            "trailing_stop_multiplier": 1.0,
+            "dynamic_target_multiplier": 2.0,
+            "trailing_activation_pct": 0.5,
+            "max_bars": 16,
+            "base_sizing_factor": 1.2
+        },
+        "mean_reverting": {
+            "entry_volume_threshold": 1.8,
+            "bb_penetration_min": 0.3,
+            "rsi_long_min": 20,
+            "rsi_long_max": 35,
+            "rsi_short_min": 65,
+            "rsi_short_max": 80,
+            "ma_slope_threshold": 0.05,
+            "atr_stop_multiplier": 2.0,
+            "trailing_stop_multiplier": 1.5,
+            "dynamic_target_multiplier": 1.0,
+            "trailing_activation_pct": 1.0,
+            "max_bars": 12,
+            "base_sizing_factor": 1.0
+        },
+        "neutral": {
+            "entry_volume_threshold": 2.0,
+            "bb_penetration_min": 0.5,
+            "rsi_long_min": 20,
+            "rsi_long_max": 30,
+            "rsi_short_min": 70,
+            "rsi_short_max": 80,
+            "ma_slope_threshold": 0.05,
+            "atr_stop_multiplier": 1.75,
+            "trailing_stop_multiplier": 1.75,
+            "dynamic_target_multiplier": 0.8,
+            "trailing_activation_pct": 0.9,
+            "max_bars": 8,
+            "base_sizing_factor": 0.7
+        },
+        "default": {
+            "entry_volume_threshold": 1.5,
+            "bb_penetration_min": 0.2,
+            "rsi_long_min": 30,
+            "rsi_long_max": 40,
+            "rsi_short_min": 60,
+            "rsi_short_max": 70,
+            "ma_slope_threshold": 0.1,
+            "atr_stop_multiplier": 2.0,
+            "trailing_stop_multiplier": 1.5,
+            "dynamic_target_multiplier": 1.0,
+            "trailing_activation_pct": 0.9,
+            "max_bars": 12,
+            "base_sizing_factor": 1.0
+        }
+    },
+    "hmm_detector": {
+        "enable": true,
+        "mode": "hmm",
+        "detection_mode": "hmm_only",
+        "n_states": 3,
+        "lookback_days": 30,
+        "retrain_frequency": 7,
+        "min_samples": 200,
+        "confidence_threshold": 0.7,
+        "visualize": true,
+        "save_model": true,
+        "state_mapping": {
+            "0": "trend_following",
+            "1": "mean_reverting",
+            "2": "neutral"
+        }
+    },
+    "ml": {
+        "enable": false,
+        "model_type": "xgboost",
+        "prediction_threshold": 0.6,
+        "retrain_frequency": 30,
+        "min_training_samples": 30,
+        "warmup_trades": 30,
+        "use_hmm_features": true,
+        "hmm_confidence_weight": 0.3
+    }
+}

@@ -1,0 +1,37 @@
+======================================================
+             BACKTEST SUMMARY REPORT                  
+            2025-03-30 10:59:07                    
+======================================================
+
+PERFORMANCE RESULTS
+------------------------------------------------------
+Initial Capital: $40000.00
+Final Portfolio Value: $48475.48
+Net Profit/Loss: $8475.48
+Total Return: 21.19%
+Number of Trades: 118
+Win Rate: 69.49%
+Average Trade P/L: $75.83
+Profit Factor: 1.42
+Sharpe Ratio: 0.18
+Maximum Drawdown: 7.07%
+
+TRADE DURATION ANALYSIS
+------------------------------------------------------
+Average Bars Held: 4.53 (5-minute bars)
+Winning Trades Bars Held: 3.94
+Losing Trades Bars Held: 5.89
+
+Intraday Trades: 100 (84.75%)
+  Win Rate: 72.00%
+  Avg Profit: $94.28
+  Avg Bars Held: 4.52
+
+Overnight Trades: 18 (15.25%)
+  Win Rate: 55.56%
+  Avg Profit: $-26.65
+  Avg Bars Held: 4.61
+
+PERFORMANCE BY SEASON
+------------------------------------------------------
+Q1:

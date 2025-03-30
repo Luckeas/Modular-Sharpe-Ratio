@@ -1,0 +1,36 @@
+==================================================
+ML PREDICTOR PERFORMANCE REPORT
+Generated: 2025-03-30 00:43:09
+==================================================
+
+MODEL INFORMATION
+--------------------------------------------------
+Model Type: xgboost
+Prediction Threshold: 0.6
+Last Training Date: 2025-03-30
+
+PREDICTION PERFORMANCE
+--------------------------------------------------
+Total Predictions: 72.13333333333334
+True Positives: 46
+True Negatives: 0
+False Positives: 23
+False Negatives: 0
+
+Accuracy: 0.6667
+Precision: 0.6667
+Recall: 1.0000
+F1 Score: 0.8000
+
+TOP FEATURE IMPORTANCE
+--------------------------------------------------
+bb_deviation: 0.0000
+rsi: 0.0000
+rsi_change: 0.0000
+close_pct_change: 0.0000
+volume_ratio: 0.0000
+atr: 0.0000
+atr_pct: 0.0000
+adx: 0.0000
+ma_slope: 0.0000
+volatility_regime: 0.0000

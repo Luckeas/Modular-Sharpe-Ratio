@@ -1,0 +1,27 @@
+{
+    "period": 3,
+    "in_sample_start": "2020-07-01",
+    "in_sample_end": "2020-09-01",
+    "params": {
+        "risk.risk_per_trade": 0.007,
+        "risk.atr_stop_multiplier": 1.5,
+        "risk.trailing_stop_atr_multiplier": 2.5,
+        "risk.dynamic_target_atr_multiplier": 1.1,
+        "risk.max_bars_held": 14,
+        "hmm_detector.lookback_days": 25,
+        "hmm_detector.retrain_frequency": 7,
+        "hmm_detector.min_samples": 300,
+        "market_type.trend_following.min_regime_score": 72.5,
+        "market_type.mean_reverting.min_regime_score": 42.5,
+        "market_type.neutral.min_regime_score": 50.0,
+        "position_sizing.max_size_adjustment": 2.0,
+        "position_sizing.min_size_adjustment": 0.9
+    },
+    "value": 0.5362763376694912,
+    "metrics": {
+        "profit_loss": 3722.713928571364,
+        "win_rate": 93.75,
+        "max_drawdown": 1.2787640968104192,
+        "trade_count": 16
+    }
+}
