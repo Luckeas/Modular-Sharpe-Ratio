@@ -1,3 +1,0 @@
-date,market_type,trend_strength,volatility_ratio,momentum_bias,market_type_score,rationale
-2020-12-14 09:30:00,mean_reverting,0,0,0,0,HMM detected mean_reverting regime with 1.00 confidence
-2020-12-21 09:30:00,trend_following,0,0,0,0,HMM detected trend_following regime with 1.00 confidence

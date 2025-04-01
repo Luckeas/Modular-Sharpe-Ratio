@@ -1,7 +1,0 @@
-date,market_type,trend_strength,volatility_ratio,momentum_bias,market_type_score,rationale
-2020-10-05 09:30:00,neutral,0,0,0,0,HMM detected neutral regime with 0.80 confidence
-2020-10-26 09:30:00,mean_reverting,0,0,0,0,HMM detected mean_reverting regime with 1.00 confidence
-2020-11-02 09:30:00,neutral,0,0,0,0,HMM detected neutral regime with 1.00 confidence
-2020-11-09 09:30:00,mean_reverting,0,0,0,0,HMM detected mean_reverting regime with 1.00 confidence
-2020-11-16 09:30:00,trend_following,0,0,0,0,HMM detected trend_following regime with 0.65 confidence
-2020-11-30 09:30:00,mean_reverting,0,0,0,0,HMM detected mean_reverting regime with 0.80 confidence

@@ -1,7 +1,0 @@
-date,market_type,trend_strength,volatility_ratio,momentum_bias,market_type_score,rationale
-2020-07-06 09:30:00,trend_following,0,0,0,0,HMM detected trend_following regime with 1.00 confidence
-2020-07-13 09:30:00,neutral,0,0,0,0,HMM detected neutral regime with 1.00 confidence
-2020-08-03 09:30:00,trend_following,0,0,0,0,HMM detected trend_following regime with 1.00 confidence
-2020-08-10 09:30:00,neutral,0,0,0,0,HMM detected neutral regime with 0.80 confidence
-2020-08-24 09:30:00,trend_following,0,0,0,0,HMM detected trend_following regime with 1.00 confidence
-2020-08-31 09:30:00,neutral,0,0,0,0,HMM detected neutral regime with 0.71 confidence
